@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:melissa_store/src/presentation/screen/home_screen.dart';
+import 'package:melissa_store/src/presentation/main_screen.dart';
+
 
 class SignInPage extends StatefulWidget {
   const SignInPage({super.key});
@@ -149,7 +150,7 @@ class _SignInPageState extends State<SignInPage> {
               GestureDetector(
                 onTap: () {
                   Navigator.of(context).push(
-                      MaterialPageRoute(builder: (_) => const HomeScreen()));
+                      MaterialPageRoute(builder: (_) => const MainScreen()));
                 },
                 child: Container(
                   height: 60,
